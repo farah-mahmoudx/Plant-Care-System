@@ -23,4 +23,4 @@ This is a simple **IoT-based plant care system** built using an **ESP32 (38-pin)
 - Wi-Fi connection
 - Blynk App + Web Dashboard
 - > ## 👨‍💻 Collaborators
-- [shahd mohamed](https://github.com/salmafayed7)
+- [shahd mohamed](https://github.com/S231-NET)
