@@ -1,5 +1,5 @@
-#define BLYNK_TEMPLATE_ID        "TMPL29BFQFJsu"
-#define BLYNK_TEMPLATE_NAME      "Smart Plant Care System"
+#define BLYNK_TEMPLATE_ID        "TMPL29BFQFJsu" // 🔁 Replace with your actual Blynk Template ID
+#define BLYNK_TEMPLATE_NAME      "Smart Plant Care System"  // 🔁 Replace with your actual Blynk Template Name
 #define BLYNK_AUTH_TOKEN         "WCEJh_9dybdb2CnCO8xrNUSAalk2u6s1"
 
 #define BLYNK_PRINT Serial
@@ -9,8 +9,8 @@
 #include <BlynkSimpleEsp32.h>
 #include <DHT.h>
 
-char ssid[] = "sameh";
-char pass[] = "00000000";
+char ssid[] = "";  // 🔁 Replace with your WiFi name
+char pass[] = "";  // 🔁 Replace with your WiFi password
 
 #define DHTPIN     18
 #define DHTTYPE    DHT11
@@ -83,12 +83,6 @@ void loop() {
   
 
   }
- 
- 
-
-  
-  
-
   Serial.println("-----------------------------");
   delay(3000);
 }
